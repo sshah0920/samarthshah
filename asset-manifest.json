@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/samarthshah/static/css/main.54bb8951.chunk.css",
-    "main.js": "/samarthshah/static/js/main.6f163a3b.chunk.js",
-    "main.js.map": "/samarthshah/static/js/main.6f163a3b.chunk.js.map",
-    "runtime-main.js": "/samarthshah/static/js/runtime-main.6fcd7515.js",
-    "runtime-main.js.map": "/samarthshah/static/js/runtime-main.6fcd7515.js.map",
+    "main.css": "/samarthshah/static/css/main.6818fea8.chunk.css",
+    "main.js": "/samarthshah/static/js/main.098d4223.chunk.js",
+    "main.js.map": "/samarthshah/static/js/main.098d4223.chunk.js.map",
+    "runtime-main.js": "/samarthshah/static/js/runtime-main.6f6a4dcc.js",
+    "runtime-main.js.map": "/samarthshah/static/js/runtime-main.6f6a4dcc.js.map",
     "static/css/2.150d169a.chunk.css": "/samarthshah/static/css/2.150d169a.chunk.css",
-    "static/js/2.e453c064.chunk.js": "/samarthshah/static/js/2.e453c064.chunk.js",
-    "static/js/2.e453c064.chunk.js.map": "/samarthshah/static/js/2.e453c064.chunk.js.map",
-    "static/js/3.1e02bd55.chunk.js": "/samarthshah/static/js/3.1e02bd55.chunk.js",
-    "static/js/3.1e02bd55.chunk.js.map": "/samarthshah/static/js/3.1e02bd55.chunk.js.map",
+    "static/js/2.30d368df.chunk.js": "/samarthshah/static/js/2.30d368df.chunk.js",
+    "static/js/2.30d368df.chunk.js.map": "/samarthshah/static/js/2.30d368df.chunk.js.map",
+    "static/js/3.94228045.chunk.js": "/samarthshah/static/js/3.94228045.chunk.js",
+    "static/js/3.94228045.chunk.js.map": "/samarthshah/static/js/3.94228045.chunk.js.map",
     "index.html": "/samarthshah/index.html",
     "static/css/2.150d169a.chunk.css.map": "/samarthshah/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.54bb8951.chunk.css.map": "/samarthshah/static/css/main.54bb8951.chunk.css.map",
-    "static/js/2.e453c064.chunk.js.LICENSE.txt": "/samarthshah/static/js/2.e453c064.chunk.js.LICENSE.txt",
-    "static/media/profile.jpg": "/samarthshah/static/media/profile.a6ec9cab.jpg"
+    "static/css/main.6818fea8.chunk.css.map": "/samarthshah/static/css/main.6818fea8.chunk.css.map",
+    "static/js/2.30d368df.chunk.js.LICENSE.txt": "/samarthshah/static/js/2.30d368df.chunk.js.LICENSE.txt",
+    "static/media/profile.c400de4e.jpg": "/samarthshah/static/media/profile.c400de4e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6fcd7515.js",
+    "static/js/runtime-main.6f6a4dcc.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.e453c064.chunk.js",
-    "static/css/main.54bb8951.chunk.css",
-    "static/js/main.6f163a3b.chunk.js"
+    "static/js/2.30d368df.chunk.js",
+    "static/css/main.6818fea8.chunk.css",
+    "static/js/main.098d4223.chunk.js"
   ]
 }
