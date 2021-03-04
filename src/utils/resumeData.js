@@ -35,7 +35,7 @@ export default {
             icon: <GitHubIcon />
         },
     },
-    About: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    About: "I'm a Computer Science Graduate from Syracuse University having 6 years of academic experience in Software Development. I am an avid learner and an enthusiastic Software Developer with experience in Software Development. ",
 
     experiences: [
         {
@@ -64,27 +64,27 @@ export default {
     skills: [
         {
             title: 'Programming Languages',
-            description: 'Java, C++(Boject Oriented Design), Python, Andorid Programming'
+            description: ["Java", "C++(Boject Oriented Design)", "Python", "Andorid Programming"],
         },
         {
             title: 'Frameworks',
-            description: 'Django, Bootstrap, ReactJS, REST, Ruby, MVC, Material UI'
+            description: ["Django", "Bootstrap", "ReactJS", "REST", "Ruby", "MVC", "Material UI"],
         },
         {
             title: 'Databases',
-            description: 'MySQL, MongoDB(NoSQL), Microsoft SQL Server, SQLite, Postgresql'
+            description: ["MySQL", "MongoDB(NoSQL)", "Microsoft SQL Server", "SQLite", "Postgresql"],
         },
         {
             title: 'Web Technologies',
-            description: 'HTML5, CSS3, XML, PHP, JavaScript, Ajax, Angular, Node, JSON'
+            description: ["HTML5", "CSS3", "XML", "PHP", "JavaScript", "Ajax", "Angular", "Node", "JSON"],
         },
         {
             title: 'Tools and IDEs',
-            description: 'Github, Eclipse, Microsoft Visual Studio, Android Studio, Atom, MS Office'
+            description: ["Github", "Eclipse", "Microsoft Visual Studio", "Android Studio", "Atom", "MS Office"],
         },
         {
             title: 'OS and Other',
-            description: 'Docker, Windows, Linux'
+            description: ["Docker", "Windows", "Linux"]
         }
     ],
 

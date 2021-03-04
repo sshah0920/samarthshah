@@ -4,6 +4,7 @@ import CustomTimeline, { CustomTimeLineSeparator } from "../Timeline/Timeline";
 import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
+import profileImage from "../../assets/images/profile.jpg"
 import resumeData from "../../utils/resumeData";
 import "./profile.css";
 import CustomButton from '../Buttons/Button';
@@ -38,7 +39,7 @@ const Profile = () => {
       </div>
 
       <figure className="profile_img">
-        <img src={require("../../assets/images/profile.jpg")} alt="" />
+        <img src={profileImage} alt="" />
       </figure>
 
       <div className="profile_information">
@@ -49,7 +50,7 @@ const Profile = () => {
             <CustomTimelineItem title="Email" text={resumeData.Email} />
             <CustomTimelineItem title="Address" text={resumeData.Address} /> 
         <div className='button_container'>
-            <CustomButton text={"Download Resume"} icon={<GetAppIcon />}> </CustomButton>
+            <CustomButton text={"Download Resume"} icon={<GetAppIcon />} > </CustomButton>
         </div>
         </CustomTimeline>
       </div>
