@@ -12,6 +12,8 @@ export default {
     Email: 'samarthshah3140@gmail.com',
     Job: 'Software Engineer',
     Address: 'Newark, California, USA',
+    Phone: '+1(510)-766-4199',
+    Skype: 'samarth.shah40',
 
     socials: {
         facebook: {
@@ -87,5 +89,68 @@ export default {
             description: ["Docker", "Windows", "Linux"]
         }
     ],
+
+    projects: [
+        {
+            tag: 'Java',
+            image: 'https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg',
+            title: 'Project 1',
+            caption: 'Caption Here',
+            description: 'Project 1 description',
+            links: [
+                {link: '', icon:''},
+                {link: '', icon:''},
+                {link: '', icon:''}
+            ]
+        },
+        {
+            tag: 'React',
+            image: 'https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg',
+            title: 'Project 2',
+            caption: 'Caption Here',
+            description: 'Project 2 description',
+            links: [
+                {link: '', icon:''},
+                {link: '', icon:''},
+                {link: '', icon:''}
+            ]
+        },
+        {
+            tag: 'Python',
+            image: 'https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg',
+            title: 'Project 3',
+            caption: 'Caption Here',
+            description: 'Project 3 description',
+            links: [
+                {link: '', icon:''},
+                {link: '', icon:''},
+                {link: '', icon:''}
+            ]
+        },
+        {
+            tag: 'Java',
+            image: 'https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg',
+            title: 'Project 4',
+            caption: 'Caption Here',
+            description: 'Project 4 description',
+            links: [
+                {link: '', icon:''},
+                {link: '', icon:''},
+                {link: '', icon:''}
+            ]
+        },
+        {
+            tag: 'Android Programming',
+            image: 'https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg',
+            title: 'Project 5',
+            caption: 'Caption Here',
+            description: 'Project 5 description',
+            links: [
+                {link: '', icon:''},
+                {link: '', icon:''},
+                {link: '', icon:''}
+            ]
+        },
+    ]
 
 };

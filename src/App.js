@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Resume from "./pages/Resume/Resume";
+import Contact from "./pages/Contact/Contact"
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -23,6 +24,9 @@ function App() {
             <Header />
             <div className="main_content container_shadow">
               <Switch>
+                <Route path = "/Contact">
+                  <Contact />
+                </Route>
                 <Route path="/Portfolio">
                   <Portfolio />
                 </Route>
