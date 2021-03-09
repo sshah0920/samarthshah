@@ -3,7 +3,7 @@ import './contact.css'
 import { Grid, Paper, Typography, TextField } from "@material-ui/core";
 import resumeData from "../../utils/resumeData";
 import CustomButton from "../../components/Buttons/Button";
-
+import '../Contact/contactform.php';
 
 const contact = () => {
     return (
@@ -14,7 +14,7 @@ const contact = () => {
           <Grid container>
             <Grid item className="resume_title m_b_30">
               <span></span>
-              <h6 className="section_title_text">Contact Me</h6>
+              <h6 className="section_title_text" method="post" action="contactfrom.php">Contact Me</h6>
             </Grid>
             <Grid item xs={12}>
               <Grid container spacing={3}>
@@ -34,7 +34,7 @@ const contact = () => {
                   />
                 </Grid>
                 <Grid item>
-                  <CustomButton text="Submit" />
+                  <CustomButton text="Submit"/>
                 </Grid>
               </Grid>
             </Grid>

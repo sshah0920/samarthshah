@@ -4,6 +4,8 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import LanguageIcon from '@material-ui/icons/Language';
+import CalcImage from '../assets/images/calc.png';
 
 export default {
     Name: 'Samarth Shah',
@@ -93,60 +95,55 @@ export default {
     projects: [
         {
             tag: 'Java',
-            image: 'https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg',
+            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
             title: 'Project 1',
             caption: 'Caption Here',
             description: 'Project 1 description',
             links: [
-                {link: '', icon:''},
                 {link: '', icon:''},
                 {link: '', icon:''}
             ]
         },
         {
             tag: 'React',
-            image: 'https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg',
-            title: 'Project 2',
-            caption: 'Caption Here',
+            image: 'https://previews.dropbox.com/p/thumb/ABERoPX8FQrXeAedpilSHkCXWJsiDao1EHIAI0sty0LM6Pb7u-Lk4_crgJ4gzSCp4esPIMYq8_F9pMTVVsv3OT37bOcYjecrnTP4FNIt3wpjd9aULda-g6OObvJKnIsV3QoadB71FLq4xB0uWlRWoFCcpKC_Cy3cAA0eyiomiklrmMR1SG1S-r-q7nY790fqFsoAf6BYNGP5ggMs9-vb2mBzKZlJP3caG1AowC6tvqsxy1bX4QbZZ47Up_Jbei09ta4ko6Gmhcar-g69mqE1XzayONrihcqEdNe_t4_WkhLGXb5rGxa2qbaB28tW0NoT2LuAkforej57W2P_FzQqFDQ7wzKS4Xhc0npDNz4nv96F8A/p.png?fv_content=true&size_mode=5',
+            title: 'Education Portfolio',
+            caption: 'A Simple React Web App to add Education details.',
             description: 'Project 2 description',
             links: [
-                {link: '', icon:''},
-                {link: '', icon:''},
-                {link: '', icon:''}
+                {link: 'https://github.com/sshah0920/EduApp', icon:<GitHubIcon />},
+                {link: 'https://sshah0920.github.io/EduApp/', icon:<LanguageIcon />}
             ]
         },
         {
             tag: 'Python',
-            image: 'https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg',
+            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
             title: 'Project 3',
             caption: 'Caption Here',
             description: 'Project 3 description',
             links: [
                 {link: '', icon:''},
-                {link: '', icon:''},
                 {link: '', icon:''}
             ]
         },
         {
-            tag: 'Java',
-            image: 'https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg',
-            title: 'Project 4',
-            caption: 'Caption Here',
+            tag: 'JavaScript',
+            image:'https://previews.dropbox.com/p/thumb/ABGUkGViN0YBSLx4aN53JawymAXtmZSIECmd0XdJSUXU6m9G-NcnfIebPdHmIrK3li7oYfZZ14xncyvjEJeSQimCEvyztE1YjLGpBlBDngiCOEECAKmir87-SqJOnbZ_CjLA1KGnkB4jJQOmx06cP3tMzaTkcBDrEbsm6YSPHjOHAfl5B8KUjECPWpLV5GV7tXG5yx1NxFTff09v1k-NGTgTJQjAl4RA3-l4WZDphzmcNC4RkCOWdBYC355PztDQ-XmpTOU3cTvn5CHGO1ZwHB9LgZ9QJ8RmZodNmM2YVP_ZEfqp0e3H2lCzuL4ypy5JEq0tCMUVqn45FycsXDTsUEi8LuV_g6J6GmjXl89fn9BlOA/p.png?fv_content=true&size_mode=5',
+            title: 'Simple Calculator',
+            caption: 'Simple Calculator',
             description: 'Project 4 description',
             links: [
-                {link: '', icon:''},
-                {link: '', icon:''},
-                {link: '', icon:''}
+                {link: 'https://github.com/sshah0920/SimpleCalc', icon:<GitHubIcon />},
+                {link: 'https://sshah0920.github.io/SimpleCalc/', icon:<LanguageIcon />}
             ]
         },
         {
             tag: 'Android Programming',
-            image: 'https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg',
+            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
             title: 'Project 5',
             caption: 'Caption Here',
             description: 'Project 5 description',
             links: [
-                {link: '', icon:''},
                 {link: '', icon:''},
                 {link: '', icon:''}
             ]
