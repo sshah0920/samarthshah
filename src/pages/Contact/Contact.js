@@ -1,20 +1,26 @@
-import React from 'react'
-import './contact.css'
-import { Grid, Paper, Typography, TextField } from "@material-ui/core";
+import React from "react";
+import "./contact.css";
+import { Grid, Typography, TextField } from "@material-ui/core";
 import resumeData from "../../utils/resumeData";
 import CustomButton from "../../components/Buttons/Button";
-import '../Contact/contactform.php';
+import "../Contact/contactform.php";
+import { Map, GoogleApiWrapper } from "google-maps-react";
 
 const contact = () => {
-    return (
-        <>
-        <Grid container spacing={7} className="section p_t_40 p_b_45">
+  return (
+    <>
+      <Grid container className="section p_b_45 p_t_40">
+        <Grid item className="resume_title m_b_30">
+          <span></span>
+          <h6 className="section_title_text">Contact Me</h6>
+        </Grid>
+      </Grid>
+      <Grid container spacing={6}>
         {/* Contact Form*/}
-        <Grid item xs={12} lg={6}>
-          <Grid container>
+        <Grid item xs={12} lg={8}>
+          <Grid container className="section ">
             <Grid item className="resume_title m_b_30">
-              <span></span>
-              <h6 className="section_title_text" method="post" action="contactfrom.php">Contact Me</h6>
+              <h6 className="section_title_text">Contact Form</h6>
             </Grid>
             <Grid item xs={12}>
               <Grid container spacing={3}>
@@ -34,16 +40,15 @@ const contact = () => {
                   />
                 </Grid>
                 <Grid item>
-                  <CustomButton text="Submit"/>
+                  <CustomButton text="Submit" />
                 </Grid>
               </Grid>
             </Grid>
           </Grid>
         </Grid>
         {/* Contact Information*/}
-        <Grid item xs={12} lg={6}>
+        <Grid item xs={12} lg={4}>
           <Grid item className="resume_title m_b_30">
-            <span></span>
             <h6 className="section_title_text">Contact Information</h6>
           </Grid>
           <Grid container>
@@ -76,10 +81,12 @@ const contact = () => {
                   </Typography>
                 </Grid>
                 <Grid item xs={12}>
-                  <Grid container className='contactInfo_socials_container'>
-                    {Object.keys(resumeData.socials).map(key => (
-                      <Grid item className={'contactInfo_socials'}>
-                        <a href={resumeData.socials[key].link}>{resumeData.socials[key].icon}</a>
+                  <Grid container className="contactInfo_socials_container">
+                    {Object.keys(resumeData.socials).map((key) => (
+                      <Grid item className={"contactInfo_socials"}>
+                        <a href={resumeData.socials[key].link}>
+                          {resumeData.socials[key].icon}
+                        </a>
                       </Grid>
                     ))}
                   </Grid>
@@ -90,11 +97,12 @@ const contact = () => {
         </Grid>
         <Grid container>
           <Grid item>
+
           </Grid>
         </Grid>
       </Grid>
-        </>
-    )
-}
+    </>
+  );
+};
 
-export default contact
+export default contact;

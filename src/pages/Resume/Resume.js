@@ -1,18 +1,15 @@
 import React from "react";
 import "./resume.css";
-import { Grid, Paper, Typography, TextField } from "@material-ui/core";
+import { Grid, Paper, Typography} from "@material-ui/core";
 import resumeData from "../../utils/resumeData";
 import CustomTimeline, {
   CustomTimeLineSeparator,
 } from "../../components/Timeline/Timeline";
 import WorkIcon from "@material-ui/icons/Work";
 import TimelineItem from "@material-ui/lab/TimelineItem";
-import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
-import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import SchoolIcon from "@material-ui/icons/School";
 import TimelineDot from "@material-ui/lab/TimelineDot";
-import CustomButton from "../../components/Buttons/Button";
 
 const Resume = () => {
   return (

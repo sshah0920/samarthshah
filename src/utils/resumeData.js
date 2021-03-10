@@ -5,12 +5,13 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import LanguageIcon from '@material-ui/icons/Language';
-import CalcImage from '../assets/images/calc.png';
+
+import calcImage from '../assets/images/calc.png';
 
 export default {
     Name: 'Samarth Shah',
     Title: 'Software Developer',
-    Birthdate: 'September 20 1996',
+    Birthdate: 'September 20, 1996',
     Email: 'samarthshah3140@gmail.com',
     Job: 'Software Engineer',
     Address: 'Newark, California, USA',
@@ -45,22 +46,22 @@ export default {
         {
             title: 'Web Developer - iConsult - Syracuse University',
             date: 'April 2020 - Nov 2020 ',
-            description: 'Developed websites from front to backend using PHP, JavaScript, and HTML. Enhanced user experience and accomplished webpage objectives by creating site structure, navigation, page optimization and graphics integration. Led end-to-end web application development and creative design decisions. Participated in design reviews and code reviews for scheduled upcoming features. Improved the website speed by 12% using the asynchronous loading for CSS and JavaScript file. Prototyped new product features such as Call to Action and Live chat with ReactJS and WordPress for Content Management Systems. Designed processes for cleanup and performance improvements, that minimized downtime by 8%.'
+            description: ' • Developed websites from front to backend using PHP, JavaScript, and HTML. Enhanced user experience and accomplished webpage objectives by creating site structure, navigation, page optimization and graphics integration. • Led end-to-end web application development and creative design decisions. Participated in design reviews and code reviews for scheduled upcoming features. • Improved the website speed by 12% using the asynchronous loading for CSS and JavaScript file. • Prototyped new product features such as Call to Action and Live chat with ReactJS and WordPress for Content Management Systems. • Designed processes for cleanup and performance improvements, that minimized downtime by 8%.'
         },
         {
-            title: 'Aditya Infotech',
+            title: 'Software Engineer  - Aditya Infotech',
             date: 'Jan 2018 - Nov 2018',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. '
+            description: ' • Developed dynamic and interactive web-applications that ensured high traffic, page views, and user experience, resulting in 23% increase in performance, designed modular elements using react and optimized cross-browser, multi-platform compatibility • Oversaw full lifecycle of software development of 3 projects. Followed the scrum management process • Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed • Facilitated in-theme customization, plug-in configuration, and customization of database structure for websites • Collaborated with a team of 6 engineers and worked closely to meet project requirements, goals, and desired functionality'
         }],
     educations: [
         {
-            title: 'Syracuse University',
-            date: 'Master of Science in Computer Science (Jan 2019 - Dec 2020)',
+            title: 'Master of Science in Computer Science ',
+            date: 'Syracuse University [Jan 2019 - Dec 2020]',
             description: 'Related Coursework: Design and Analysis of Algorithms, Operating Systems, Internet Programming, Computer Architecture, Database Management Systems, Social Media & Data Mining, Natural Language Processing, Structural Programming & Formal Methods'
         },
         {
-            title: 'ITM Vocational University',
-            date: 'B.Tech in Computer Science (July 2014 - June 2018)',
+            title: 'B.Tech in Computer Science  & Engineering',
+            date: 'ITM Vocational University [July 2014 - June 2018]',
             description: 'Related Coursework: Data Structures, Web Technologies, JAVA Programming, Object Oriented Programming, Mobile Application Programming'
         },
     ],
@@ -100,13 +101,13 @@ export default {
             caption: 'Caption Here',
             description: 'Project 1 description',
             links: [
-                {link: '', icon:''},
-                {link: '', icon:''}
+                {link: '', icon:<GitHubIcon />},
+                {link: '', icon:<LanguageIcon />}
             ]
         },
         {
             tag: 'React',
-            image: 'https://previews.dropbox.com/p/thumb/ABERoPX8FQrXeAedpilSHkCXWJsiDao1EHIAI0sty0LM6Pb7u-Lk4_crgJ4gzSCp4esPIMYq8_F9pMTVVsv3OT37bOcYjecrnTP4FNIt3wpjd9aULda-g6OObvJKnIsV3QoadB71FLq4xB0uWlRWoFCcpKC_Cy3cAA0eyiomiklrmMR1SG1S-r-q7nY790fqFsoAf6BYNGP5ggMs9-vb2mBzKZlJP3caG1AowC6tvqsxy1bX4QbZZ47Up_Jbei09ta4ko6Gmhcar-g69mqE1XzayONrihcqEdNe_t4_WkhLGXb5rGxa2qbaB28tW0NoT2LuAkforej57W2P_FzQqFDQ7wzKS4Xhc0npDNz4nv96F8A/p.png?fv_content=true&size_mode=5',
+            image: 'https://previews.drobox.com/p/thumb/ABERoPX8FQrXeAedpilSHkCXWJsiDao1EHIAI0sty0LM6Pb7u-Lk4_crgJ4gzSCp4esPIMYq8_F9pMTVVsv3OT37bOcYjecrnTP4FNIt3wpjd9aULda-g6OObvJKnIsV3QoadB71FLq4xB0uWlRWoFCcpKC_Cy3cAA0eyiomiklrmMR1SG1S-r-q7nY790fqFsoAf6BYNGP5ggMs9-vb2mBzKZlJP3caG1AowC6tvqsxy1bX4QbZZ47Up_Jbei09ta4ko6Gmhcar-g69mqE1XzayONrihcqEdNe_t4_WkhLGXb5rGxa2qbaB28tW0NoT2LuAkforej57W2P_FzQqFDQ7wzKS4Xhc0npDNz4nv96F8A/p.png?fv_content=true&size_mode=5',
             title: 'Education Portfolio',
             caption: 'A Simple React Web App to add Education details.',
             description: 'Project 2 description',
@@ -122,13 +123,13 @@ export default {
             caption: 'Caption Here',
             description: 'Project 3 description',
             links: [
-                {link: '', icon:''},
-                {link: '', icon:''}
+                {link: '', icon:<GitHubIcon />},
+                {link: '', icon:<LanguageIcon />}
             ]
         },
         {
             tag: 'JavaScript',
-            image:'https://previews.dropbox.com/p/thumb/ABGUkGViN0YBSLx4aN53JawymAXtmZSIECmd0XdJSUXU6m9G-NcnfIebPdHmIrK3li7oYfZZ14xncyvjEJeSQimCEvyztE1YjLGpBlBDngiCOEECAKmir87-SqJOnbZ_CjLA1KGnkB4jJQOmx06cP3tMzaTkcBDrEbsm6YSPHjOHAfl5B8KUjECPWpLV5GV7tXG5yx1NxFTff09v1k-NGTgTJQjAl4RA3-l4WZDphzmcNC4RkCOWdBYC355PztDQ-XmpTOU3cTvn5CHGO1ZwHB9LgZ9QJ8RmZodNmM2YVP_ZEfqp0e3H2lCzuL4ypy5JEq0tCMUVqn45FycsXDTsUEi8LuV_g6J6GmjXl89fn9BlOA/p.png?fv_content=true&size_mode=5',
+            image: '../assets/images/calc.png',
             title: 'Simple Calculator',
             caption: 'Simple Calculator',
             description: 'Project 4 description',
@@ -144,8 +145,8 @@ export default {
             caption: 'Caption Here',
             description: 'Project 5 description',
             links: [
-                {link: '', icon:''},
-                {link: '', icon:''}
+                {link: '', icon:<GitHubIcon />},
+                {link: '', icon:<LanguageIcon />}
             ]
         },
     ]

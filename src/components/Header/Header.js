@@ -38,9 +38,11 @@ const Header = (props) => {
         </Nav>
         <div className='header_right'>
             {Object.keys(resumeData.socials).map(key => (
-               <a href={resumeData.socials[key].link} target='_blank'>{resumeData.socials[key].icon}</a> 
+               <a href={resumeData.socials[key].link} target='_blank' rel='noreferrer'>{resumeData.socials[key].icon}</a> 
             ))}
+            { /*<a href='/pages/contact.js'>
             <CustomButton text={'Hire Me'} icon={<PriorityHighIcon />}> </CustomButton>
+            </a> */}
         </div>
     </Navbar.Collapse>
   </Navbar>

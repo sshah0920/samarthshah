@@ -13,6 +13,7 @@
 .resumeTimeline .timeline_content .timeline_date {
     color: darkslategray;
     font-style: italic;
+    font-weight: bold;
     word-wrap: break-word;
 }
 

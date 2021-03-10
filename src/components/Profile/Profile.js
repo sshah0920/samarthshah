@@ -9,6 +9,7 @@ import resumeData from "../../utils/resumeData";
 import "./profile.css";
 import CustomButton from '../Buttons/Button';
 import GetAppIcon from '@material-ui/icons/GetApp';
+import "../../assets/docs/Samarth_Shah.pdf";
 
 const CustomTimelineItem = ({ title, text, link }) => (
     <TimelineItem>
@@ -17,7 +18,7 @@ const CustomTimelineItem = ({ title, text, link }) => (
         {link ? (
           <Typography className="timelineItem_text">
             <span>{title}:</span>{" "}
-            <a href={link} target="_blank" >
+            <a href={link} target="_blank" rel='noreferrer'>
               {text}
             </a>
           </Typography>
@@ -49,9 +50,9 @@ const Profile = () => {
             <CustomTimelineItem title="Job" text={resumeData.Job} />
             <CustomTimelineItem title="Email" text={resumeData.Email} />
             <CustomTimelineItem title="Address" text={resumeData.Address} /> 
-        <div className='button_container'>
+        <a className='button_container' target='_blank' rel='noreferrer' href="Samarth_Shah.pdf" download>
             <CustomButton text={"Download Resume"} icon={<GetAppIcon />} > </CustomButton>
-        </div>
+        </a>
         </CustomTimeline>
       </div>
     </div>
