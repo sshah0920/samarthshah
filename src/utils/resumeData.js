@@ -96,18 +96,18 @@ export default {
     projects: [
         {
             tag: 'Java',
-            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
-            title: 'Project 1',
+            image: 'https://resumeimages209.s3-us-west-1.amazonaws.com/simpchat.png',
+            title: 'Chat Application - 2 Users',
             caption: 'Caption Here',
             description: 'Project 1 description',
             links: [
-                {link: '', icon:<GitHubIcon />},
-                {link: '', icon:<LanguageIcon />}
+                {link: 'https://github.com/sshah0920/TextingApp.git', icon:<GitHubIcon />},
+                {link: '#', icon:<LanguageIcon />}
             ]
         },
         {
             tag: 'React',
-            image: 'https://previews.drobox.com/p/thumb/ABERoPX8FQrXeAedpilSHkCXWJsiDao1EHIAI0sty0LM6Pb7u-Lk4_crgJ4gzSCp4esPIMYq8_F9pMTVVsv3OT37bOcYjecrnTP4FNIt3wpjd9aULda-g6OObvJKnIsV3QoadB71FLq4xB0uWlRWoFCcpKC_Cy3cAA0eyiomiklrmMR1SG1S-r-q7nY790fqFsoAf6BYNGP5ggMs9-vb2mBzKZlJP3caG1AowC6tvqsxy1bX4QbZZ47Up_Jbei09ta4ko6Gmhcar-g69mqE1XzayONrihcqEdNe_t4_WkhLGXb5rGxa2qbaB28tW0NoT2LuAkforej57W2P_FzQqFDQ7wzKS4Xhc0npDNz4nv96F8A/p.png?fv_content=true&size_mode=5',
+            image: 'https://resumeimages209.s3-us-west-1.amazonaws.com/eduapp.png',
             title: 'Education Portfolio',
             caption: 'A Simple React Web App to add Education details.',
             description: 'Project 2 description',
@@ -117,9 +117,9 @@ export default {
             ]
         },
         {
-            tag: 'Python',
+            tag: 'JavaScript',
             image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
-            title: 'Project 3',
+            title: 'Web-Chat',
             caption: 'Caption Here',
             description: 'Project 3 description',
             links: [
@@ -129,7 +129,7 @@ export default {
         },
         {
             tag: 'JavaScript',
-            image: '../assets/images/calc.png',
+            image: 'https://resumeimages209.s3-us-west-1.amazonaws.com/calc.png',
             title: 'Simple Calculator',
             caption: 'Simple Calculator',
             description: 'Project 4 description',
@@ -144,6 +144,39 @@ export default {
             title: 'Project 5',
             caption: 'Caption Here',
             description: 'Project 5 description',
+            links: [
+                {link: '', icon:<GitHubIcon />},
+                {link: '', icon:<LanguageIcon />}
+            ]
+        },
+        {
+            tag: 'Python',
+            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
+            title: 'Splitceipt',
+            caption: 'Caption Here',
+            description: 'Description Here',
+            links: [
+                {link: '', icon:<GitHubIcon />},
+                {link: '', icon:<LanguageIcon />}
+            ]
+        },
+        {
+            tag: 'Python',
+            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
+            title: 'TedTalk Analyzer',
+            caption: 'Caption Here',
+            description: 'Description Here',
+            links: [
+                {link: '', icon:<GitHubIcon />},
+                {link: '', icon:<LanguageIcon />}
+            ]
+        },
+        {
+            tag: 'Asp .Net',
+            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
+            title: 'E-Book Reader',
+            caption: 'Caption Here',
+            description: 'Description Here',
             links: [
                 {link: '', icon:<GitHubIcon />},
                 {link: '', icon:<LanguageIcon />}
