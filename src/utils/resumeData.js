@@ -6,8 +6,6 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import LanguageIcon from '@material-ui/icons/Language';
 
-import calcImage from '../assets/images/calc.png';
-
 export default {
     Name: 'Samarth Shah',
     Title: 'Software Developer',
@@ -98,8 +96,8 @@ export default {
             tag: 'Java',
             image: 'https://resumeimages209.s3-us-west-1.amazonaws.com/simpchat.png',
             title: 'Chat Application - 2 Users',
-            caption: 'Caption Here',
-            description: 'Project 1 description',
+            caption: 'Technologies Used: JAVA Swing, Socket Programming',
+            description: '',
             links: [
                 {link: 'https://github.com/sshah0920/TextingApp.git', icon:<GitHubIcon />},
                 {link: '#', icon:<LanguageIcon />}
@@ -109,8 +107,8 @@ export default {
             tag: 'React',
             image: 'https://resumeimages209.s3-us-west-1.amazonaws.com/eduapp.png',
             title: 'Education Portfolio',
-            caption: 'A Simple React Web App to add Education details.',
-            description: 'Project 2 description',
+            caption: 'Technologies Used: React, React Hooks, React Redux, Bootstrap4',
+            description: '',
             links: [
                 {link: 'https://github.com/sshah0920/EduApp', icon:<GitHubIcon />},
                 {link: 'https://sshah0920.github.io/EduApp/', icon:<LanguageIcon />}
@@ -118,10 +116,10 @@ export default {
         },
         {
             tag: 'JavaScript',
-            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
+            image: 'https://resumeimages209.s3-us-west-1.amazonaws.com/webchat.png',
             title: 'Web-Chat',
-            caption: 'Caption Here',
-            description: 'Project 3 description',
+            caption: 'Technologies Used: PHP, JavaScript, AJAX, HTML5, CSS3',
+            description: '',
             links: [
                 {link: '', icon:<GitHubIcon />},
                 {link: '', icon:<LanguageIcon />}
@@ -131,19 +129,19 @@ export default {
             tag: 'JavaScript',
             image: 'https://resumeimages209.s3-us-west-1.amazonaws.com/calc.png',
             title: 'Simple Calculator',
-            caption: 'Simple Calculator',
-            description: 'Project 4 description',
+            caption: 'Technologies Used: HTML5, CSS3, JavaScript',
+            description: '',
             links: [
                 {link: 'https://github.com/sshah0920/SimpleCalc', icon:<GitHubIcon />},
                 {link: 'https://sshah0920.github.io/SimpleCalc/', icon:<LanguageIcon />}
             ]
         },
         {
-            tag: 'Android Programming',
+            tag: 'Java',
             image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
-            title: 'Project 5',
-            caption: 'Caption Here',
-            description: 'Project 5 description',
+            title: 'Ticket Reservation System',
+            caption: 'Technologies Used: JAVA, Socket Programming',
+            description: 'Description Here',
             links: [
                 {link: '', icon:<GitHubIcon />},
                 {link: '', icon:<LanguageIcon />}
@@ -151,9 +149,9 @@ export default {
         },
         {
             tag: 'Python',
-            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
+            image: 'https://resumeimages209.s3-us-west-1.amazonaws.com/splitceipt.png',
             title: 'Splitceipt',
-            caption: 'Caption Here',
+            caption: 'Technologies Used: Python, Selenium, Python-Kivy, JavaScript, Web3 Client API',
             description: 'Description Here',
             links: [
                 {link: '', icon:<GitHubIcon />},
@@ -162,20 +160,42 @@ export default {
         },
         {
             tag: 'Python',
-            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
+            image: 'https://www.promptcloud.com/wp-content/uploads/2017/04/top-ted-talks-on-data-e1491372556650.png',
             title: 'TedTalk Analyzer',
-            caption: 'Caption Here',
-            description: 'Description Here',
+            caption: 'Technologies Used: Python, TKinter(GUI), SKLearn, SeaBorn, Pandas, Numpy, Twitter API',
+            description: '',
             links: [
                 {link: '', icon:<GitHubIcon />},
                 {link: '', icon:<LanguageIcon />}
             ]
         },
         {
-            tag: 'Asp .Net',
+            tag: 'ASP.Net',
             image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
             title: 'E-Book Reader',
-            caption: 'Caption Here',
+            caption: 'Technologies Used: HTML, CSS, ASP.Net Core MVC, JavaScript ES6',
+            description: 'A web-application consisting of a Public Section(Static) & a Password Protected Section. Controls are implemented to change the viewing scale and make the design responsive. The application supports fuctions like upload, replace and delete a file/document. Only certain filetypes are supported. Users can view and comment on the uploaded documents.',
+            links: [
+                {link: '', icon:<GitHubIcon />},
+                {link: '', icon:<LanguageIcon />}
+            ]
+        },
+        {
+            tag: 'Python',
+            image: 'https://www.disruptivestatic.com/wp-content/uploads/2019/07/SENTIMENT.jpg',
+            title: 'Sentiment Analysis - Training a Sentiment Classifier',
+            caption: 'Technologies Used: Python',
+            description: 'Description Here',
+            links: [
+                {link: '', icon:<GitHubIcon />},
+                {link: '', icon:<LanguageIcon />}
+            ]
+        },
+        {
+            tag: 'Java',
+            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
+            title: 'Text Editor',
+            caption: 'Technologies Used: Java Swing',
             description: 'Description Here',
             links: [
                 {link: '', icon:<GitHubIcon />},

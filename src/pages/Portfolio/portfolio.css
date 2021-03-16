@@ -48,6 +48,7 @@
 
 .projectDialog .projectDialog_descriptions {
     margin-top: 10px !important;
+    text-align: justify  !important;
 }
 
 .projectDialog .projectDialog_actions {
