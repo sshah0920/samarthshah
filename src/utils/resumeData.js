@@ -192,13 +192,13 @@ export default {
             ]
         },
         {
-            tag: 'Java',
-            image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
-            title: 'Text Editor',
-            caption: 'Technologies Used: Java Swing',
+            tag: 'JavaScript',
+            image: 'https://resumeimages209.s3-us-west-1.amazonaws.com/weather.png',
+            title: 'Weather App',
+            caption: 'Technologies Used: JavaScript, HTML, CSS, OWM API',
             description: 'Description Here',
             links: [
-                {link: '', icon:<GitHubIcon />},
+                {link: 'https://github.com/sshah0920/WeatherApp', icon:<GitHubIcon />},
                 {link: '', icon:<LanguageIcon />}
             ]
         },

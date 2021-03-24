@@ -50,7 +50,7 @@ const Profile = () => {
             <CustomTimelineItem title="Job" text={resumeData.Job} />
             <CustomTimelineItem title="Email" text={resumeData.Email} />
             <CustomTimelineItem title="Address" text={resumeData.Address} /> 
-        <a className='button_container' target='_blank' rel='noreferrer' href="Samarth_Shah.pdf" download>
+        <a className='button_container'  href="Samarth_Shah.pdf" download="Samarth_Shah_Resume">
             <CustomButton text={"Download Resume"} icon={<GetAppIcon />} > </CustomButton>
         </a>
         </CustomTimeline>

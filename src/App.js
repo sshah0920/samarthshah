@@ -25,9 +25,9 @@ function App() {
             <Header />
             <div className="main_content container_shadow">
               <Switch>
-                <Route path = "/Contact">
+                {/*<Route path = "/Contact">
                   <Contact />
-                </Route>
+  </Route>*/}
                 <Route path="/Portfolio">
                   <Portfolio />
                 </Route>

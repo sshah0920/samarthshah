@@ -24,22 +24,23 @@ const contact = () => {
             </Grid>
             <Grid item xs={12}>
               <Grid container spacing={3}>
-                <Grid item xs={12} sm={6}>
-                  <TextField name="Name" label="Name" />
+                <Grid method="POST" item xs={12} sm={6}>
+                  <TextField className="name" name="Name" label="Name" />
                 </Grid>
-                <Grid item xs={12} sm={6}>
-                  <TextField name="email" label="E-mail" />
+                <Grid method="POST" item xs={12} sm={6}>
+                  <TextField className="email" name="email" label="E-mail" />
                 </Grid>
-                <Grid item xs={12}>
+                <Grid method="POST" item xs={12}>
                   <TextField
                     fullWidth
+                    className="message"
                     name="Message"
                     label="Message"
                     multiline
                     rows={4}
                   />
                 </Grid>
-                <Grid item>
+                <Grid item method="POST" className="contact-form">
                   <CustomButton text="Submit" />
                 </Grid>
               </Grid>
@@ -95,14 +96,11 @@ const contact = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid container>
-          <Grid item>
-
-          </Grid>
-        </Grid>
       </Grid>
     </>
   );
 };
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 
 export default contact;
