@@ -32,6 +32,10 @@ const Header = (props) => {
             Portfolio
             </Nav.Link>
 
+            {/*<Nav.Link as={NavLink} to='/certificate' className={pathName === '/certificate' ? 'header_link_active' : 'header_link'}>
+            Certificates
+    </Nav.Link>*/}
+
             {/*<Nav.Link as={NavLink} to='/contact' className={pathName === '/contact' ? 'header_link_active' : 'header_link'}>
             Contact
     </Nav.Link>*/}

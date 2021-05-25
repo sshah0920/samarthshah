@@ -8,10 +8,10 @@ import LanguageIcon from '@material-ui/icons/Language';
 
 export default {
     Name: 'Samarth Shah',
-    Title: 'Software Developer',
+    Title: 'Software Engineer',
     Birthdate: 'September 20, 1996',
     Email: 'samarthshah3140@gmail.com',
-    Job: 'Software Engineer',
+    Company: 'Cerner Corp',
     Address: 'Newark, California, USA',
     Phone: '+1(510)-766-4199',
     Skype: 'samarth.shah40',
@@ -44,50 +44,68 @@ export default {
         {
             title: 'Web Developer - iConsult - Syracuse University',
             date: 'April 2020 - Nov 2020 ',
-            description: ' • Developed websites from front to backend using PHP, JavaScript, and HTML. Enhanced user experience and accomplished webpage objectives by creating site structure, navigation, page optimization and graphics integration. • Led end-to-end web application development and creative design decisions. Participated in design reviews and code reviews for scheduled upcoming features. • Improved the website speed by 12% using the asynchronous loading for CSS and JavaScript file. • Prototyped new product features such as Call to Action and Live chat with ReactJS and WordPress for Content Management Systems. • Designed processes for cleanup and performance improvements, that minimized downtime by 8%.'
+            description1_0: '• Developed website frontend which enhanced user experience. Accomplished webpage objectives by creating site structure, page optimization and graphics integration.',
+            description1_1: '• Developed reusable React functional and class components with Redux for state management.',
+            description1_2: '• Improving code coverage to 90% using Enzyme.js, Chai.js and Mocha.js unit test frameworks.',
+            description1_3: '• Designed processes for cleanup and performance improvements, that minimized downtime by 8%.'
         },
         {
-            title: 'Software Engineer  - Aditya Infotech',
+            title: 'Software Engineering Intern  - Aditya Infotech',
             date: 'Jan 2018 - Nov 2018',
-            description: ' • Developed dynamic and interactive web-applications that ensured high traffic, page views, and user experience, resulting in 23% increase in performance, designed modular elements using react and optimized cross-browser, multi-platform compatibility • Oversaw full lifecycle of software development of 3 projects. Followed the scrum management process • Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed • Facilitated in-theme customization, plug-in configuration, and customization of database structure for websites • Collaborated with a team of 6 engineers and worked closely to meet project requirements, goals, and desired functionality'
+            description2_0:'• Developed microservices in Java to process data. Built and managed API’s using ext.js framework to maintain applications.', 
+            description2_1:'• Worked on Frontend modules in React.JS for the users. Designed database schemas for complex entity relationships.', 
+            description2_2:'• Investigating and resolving pre-existing bugs using debugging tools such as ChromeDevTools and React Developer Tools.'
         }],
     educations: [
         {
             title: 'Master of Science in Computer Science ',
             date: 'Syracuse University [Jan 2019 - Dec 2020]',
-            description: 'Related Coursework: Design and Analysis of Algorithms, Operating Systems, Internet Programming, Computer Architecture, Database Management Systems, Social Media & Data Mining, Natural Language Processing, Structural Programming & Formal Methods'
+            description1_0:'Related Coursework:', 
+            description1_1:'• Design and Analysis of Algorithms', 
+            description1_2:'• Operating Systems', 
+            description1_3:'• Internet Programming', 
+            description1_4:'• Data Structures', 
+            description1_5:'• Database Management Systems', 
+            description1_6:'• Computer Architecture', 
+            description1_7:'• Natural Language Processing', 
+            description1_8:'• Structural Programming & Formal Methods',
+            description1_9:'• Introduction to Data Science',
         },
         {
             title: 'B.Tech in Computer Science  & Engineering',
             date: 'ITM Vocational University [July 2014 - June 2018]',
-            description: 'Related Coursework: Data Structures, Web Technologies, JAVA Programming, Object Oriented Programming, Mobile Application Programming'
+            description2_0: 'Related Coursework:', 
+            description2_2:'• Web Technologies',
+            description2_3:'• JAVA Programming',
+            description2_4:'• Object Oriented Programming',
+            description2_5:'• Mobile Application Programming'
         },
     ],
 
     skills: [
         {
             title: 'Programming Languages',
-            description: ["Java", "C++(Boject Oriented Design)", "Python", "Andorid Programming"],
+            description: ["Java(Object Oriented Design)", "Golang", "Python", "C++"],
         },
         {
             title: 'Frameworks',
-            description: ["Django", "Bootstrap", "ReactJS", "REST", "Ruby", "MVC", "Material UI"],
+            description: ["ReactJs", "Ruby on Rails", "Django", "Asp .Net Core/MVC"],
         },
         {
             title: 'Databases',
-            description: ["MySQL", "MongoDB(NoSQL)", "Microsoft SQL Server", "SQLite", "Postgresql"],
+            description: ["MySQL", "MongoDB(NoSQL)", "Microsoft SQL Server", "Postgresql", "Cassandra"],
         },
         {
             title: 'Web Technologies',
-            description: ["HTML5", "CSS3", "XML", "PHP", "JavaScript", "Ajax", "Angular", "Node", "JSON"],
+            description: ["HTML5", "CSS3", "XML", "PHP", "JavaScript", "Ajax", "jQuery", "JSON"],
         },
         {
             title: 'Tools and IDEs',
-            description: ["Github", "Eclipse", "Microsoft Visual Studio", "Android Studio", "Atom", "MS Office"],
+            description: ["GIT", "Eclipse", "Microsoft Visual Studio", "Intellij", "MS Office"],
         },
         {
             title: 'OS and Other',
-            description: ["Docker", "Windows", "Linux"]
+            description: ["Docker", "Kubernetes", "Amazon Web Services", "Spring MVC", "Postman", "RESTful Web Services", "JIRA", "Azure Cloud"]
         }
     ],
 
@@ -140,7 +158,7 @@ export default {
             tag: 'Java',
             image: 'https://image.shutterstock.com/image-photo/printed-html-code-website-internet-260nw-117393862.jpg',
             title: 'Ticket Reservation System',
-            caption: 'Technologies Used: JAVA, Socket Programming',
+            caption: 'Technologies Used: JAVA, Java Swing',
             description: 'Description Here',
             links: [
                 {link: '', icon:<GitHubIcon />},

@@ -47,9 +47,10 @@ const Profile = () => {
         <CustomTimeline icon={<PersonOutlineIcon />}> 
             <CustomTimelineItem title="Name" text={resumeData.Name} />
             <CustomTimelineItem title="Birthdate" text={resumeData.Birthdate} />
-            <CustomTimelineItem title="Job" text={resumeData.Job} />
+            <CustomTimelineItem title="Company" text={resumeData.Company} />
             <CustomTimelineItem title="Email" text={resumeData.Email} />
-            <CustomTimelineItem title="Address" text={resumeData.Address} /> 
+            <CustomTimelineItem title="Address" text={resumeData.Address} />
+            <CustomTimelineItem title="Skype" text={resumeData.Skype} />  
         <a className='button_container'  href="Samarth_Shah.pdf" download="Samarth_Shah_Resume">
             <CustomButton text={"Download Resume"} icon={<GetAppIcon />} > </CustomButton>
         </a>

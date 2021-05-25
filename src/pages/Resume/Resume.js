@@ -52,7 +52,49 @@ const Resume = () => {
                         variant="body2"
                         className="timeline_description"
                       >
-                        {experience.description}
+                        {experience.description1_0}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {experience.description1_1}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {experience.description1_2}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {experience.description1_3}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {experience.description1_4}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {experience.description2_0}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {experience.description2_1}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {experience.description2_2}
                       </Typography>
                     </TimelineContent>
                   </TimelineItem>
@@ -76,7 +118,91 @@ const Resume = () => {
                         variant="body2"
                         className="timeline_description"
                       >
-                        {education.description}
+                        {education.description1_0}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description1_1}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description1_2}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description1_3}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description1_4}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description1_5}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description1_6}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description1_7}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description1_8}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description1_9}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description2_0}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description2_2}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description2_3}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description2_4}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {education.description2_5}
                       </Typography>
                     </TimelineContent>
                   </TimelineItem>
@@ -96,8 +222,8 @@ const Resume = () => {
           <Grid item xs={12}>
             <Grid container justify="space-between" spacing={3}>
               {resumeData.skills.map((skill) => (
-                <Grid item xs={12} sm={6} md={3}>
-                  <Paper elevation={1} className="skill">
+                <Grid item xs={12} sm={5} md={4}>
+                  <Paper elevation={0} className="skill">
                     <Typography variant="h6" className="skill_title">
                       {skill.title}
                     </Typography>
