@@ -26,7 +26,7 @@ const Certificate = () => {
               Data Structures and Algorithms Specialization - UCSD
             </a>
             <a href="#" class="list-group-item list-group-item-action">
-              Java Programming and Software Engineerin Fundamentals Specialization
+              Java Programming and Software Engineering Fundamentals Specialization
             </a>
             <a href="#" class="list-group-item list-group-item-action ">
               Object Oriented Programming in Java Specialization
