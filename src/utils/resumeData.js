@@ -117,8 +117,7 @@ export default {
             caption: 'Technologies Used: JAVA Swing, Socket Programming',
             description: '',
             links: [
-                {link: 'https://github.com/sshah0920/TextingApp.git', icon:<GitHubIcon />},
-                {link: '#', icon:<LanguageIcon />}
+                {link: 'https://github.com/sshah0920/TextingApp.git', icon:<GitHubIcon />}
             ]
         },
         {
@@ -172,7 +171,7 @@ export default {
             caption: 'Technologies Used: Python, Selenium, Python-Kivy, JavaScript, Web3 Client API',
             description: 'Description Here',
             links: [
-                {link: '', icon:<GitHubIcon />},
+                {link: 'https://github.com/sshah0920/SplitCeipt', icon:<GitHubIcon />},
                 {link: '', icon:<LanguageIcon />}
             ]
         },
