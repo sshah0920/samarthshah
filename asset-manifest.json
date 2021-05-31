@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/samarthshah/static/css/main.353da5c0.chunk.css",
-    "main.js": "/samarthshah/static/js/main.3db4054a.chunk.js",
-    "main.js.map": "/samarthshah/static/js/main.3db4054a.chunk.js.map",
-    "runtime-main.js": "/samarthshah/static/js/runtime-main.73910f73.js",
-    "runtime-main.js.map": "/samarthshah/static/js/runtime-main.73910f73.js.map",
+    "main.css": "/samarthshah/static/css/main.e4440309.chunk.css",
+    "main.js": "/samarthshah/static/js/main.0cd6fadf.chunk.js",
+    "main.js.map": "/samarthshah/static/js/main.0cd6fadf.chunk.js.map",
+    "runtime-main.js": "/samarthshah/static/js/runtime-main.d45e2531.js",
+    "runtime-main.js.map": "/samarthshah/static/js/runtime-main.d45e2531.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/samarthshah/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.6e9adce9.chunk.js": "/samarthshah/static/js/2.6e9adce9.chunk.js",
-    "static/js/2.6e9adce9.chunk.js.map": "/samarthshah/static/js/2.6e9adce9.chunk.js.map",
-    "static/js/3.9765019e.chunk.js": "/samarthshah/static/js/3.9765019e.chunk.js",
-    "static/js/3.9765019e.chunk.js.map": "/samarthshah/static/js/3.9765019e.chunk.js.map",
+    "static/js/2.5290d236.chunk.js": "/samarthshah/static/js/2.5290d236.chunk.js",
+    "static/js/2.5290d236.chunk.js.map": "/samarthshah/static/js/2.5290d236.chunk.js.map",
+    "static/js/3.3b7ec08b.chunk.js": "/samarthshah/static/js/3.3b7ec08b.chunk.js",
+    "static/js/3.3b7ec08b.chunk.js.map": "/samarthshah/static/js/3.3b7ec08b.chunk.js.map",
     "index.html": "/samarthshah/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/samarthshah/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.353da5c0.chunk.css.map": "/samarthshah/static/css/main.353da5c0.chunk.css.map",
-    "static/js/2.6e9adce9.chunk.js.LICENSE.txt": "/samarthshah/static/js/2.6e9adce9.chunk.js.LICENSE.txt",
+    "static/css/main.e4440309.chunk.css.map": "/samarthshah/static/css/main.e4440309.chunk.css.map",
+    "static/js/2.5290d236.chunk.js.LICENSE.txt": "/samarthshah/static/js/2.5290d236.chunk.js.LICENSE.txt",
     "static/media/Samarth_Shah.be82ff7f.pdf": "/samarthshah/static/media/Samarth_Shah.be82ff7f.pdf",
     "static/media/index.css": "/samarthshah/static/media/bg3.c54a9e3f.jpg",
     "static/media/contactform.136b1604.php": "/samarthshah/static/media/contactform.136b1604.php",
     "static/media/profile.c400de4e.jpg": "/samarthshah/static/media/profile.c400de4e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.73910f73.js",
+    "static/js/runtime-main.d45e2531.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.6e9adce9.chunk.js",
-    "static/css/main.353da5c0.chunk.css",
-    "static/js/main.3db4054a.chunk.js"
+    "static/js/2.5290d236.chunk.js",
+    "static/css/main.e4440309.chunk.css",
+    "static/js/main.0cd6fadf.chunk.js"
   ]
 }
