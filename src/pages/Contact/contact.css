@@ -1,0 +1,32 @@
+/* Contact Info */
+.contact_info {
+    font-size:  14px !important;
+    color: #787878;
+    line-height: 34px !important;
+}
+
+.contact_info > span {
+    color: black;
+    font-weight: 500;
+}
+
+.contactInfo_socials_container {
+    margin-top: 25px;
+}
+
+.contactInfo_socials > a > .MuiSvgIcon-root {
+    font-size:  18px !important;
+    margin-right: 10px;
+    color: black;
+}
+
+.contactInfo_socials > a > .MuiSvgIcon-root:hover {
+    font-size:  20px !important;
+    margin-right: 10px;
+    color:var(--main-color);
+}
+
+.mapStyles {
+    width: 100%;
+    height: 100%;
+}
