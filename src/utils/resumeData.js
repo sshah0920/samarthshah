@@ -11,8 +11,8 @@ export default {
     Title: 'Software Engineer',
     Birthdate: 'September 20, 1996',
     Email: 'samarthshah3140@gmail.com',
-    Company: 'Cerner Corp',
-    Address: 'Newark, California, USA',
+    Company: 'DISH Networks LLC',
+    Address: 'Denver, Colorado, USA',
     Phone: '+1(510)-766-4199',
     Skype: 'samarth.shah40',
 
@@ -41,6 +41,13 @@ export default {
     About: "I'm a Computer Science Graduate from Syracuse University having 6 years of academic experience in Software Development. I am an avid learner and an enthusiastic Software Developer with experience in Software Development. ",
 
     experiences: [
+        {
+            title: 'Software Engineer - DISH Technologies',
+            date: 'December 2021 - Current',
+            description1_0: '• Gathered data from multiple Metadata Providers and processed data into required configuration before delivering to DISH Platforms.',
+            description1_1: '• Duilt Functionality to send out alerts when the data is not processed or the deliverable files are not generated, which helped in keeping track of any failures.',
+            description1_2: '• Contributed to developiong the Web UI for all the metadata collected and showcase how and what is sent to different DISH Platforms.',
+        },
         {
             title: 'Web Developer - iConsult - Syracuse University',
             date: 'April 2020 - Nov 2020 ',
@@ -85,27 +92,27 @@ export default {
     skills: [
         {
             title: 'Programming Languages',
-            description: ["Java(Object Oriented Design)", "Golang", "Python", "C++"],
+            description: ["Java", "Golang", "Python"],
         },
         {
             title: 'Frameworks',
-            description: ["ReactJs", "Ruby on Rails", "Django", "Asp .Net Core/MVC"],
+            description: ["ReactJs", "Django"],
         },
         {
             title: 'Databases',
-            description: ["MySQL", "MongoDB(NoSQL)", "Microsoft SQL Server", "Postgresql", "Cassandra"],
+            description: ["MySQL", "MongoDB(NoSQL)", "Microsoft SQL Server"],
         },
         {
             title: 'Web Technologies',
-            description: ["HTML5", "CSS3", "XML", "PHP", "JavaScript", "Ajax", "jQuery", "JSON"],
+            description: ["HTML5", "CSS3", "XML", "JavaScript"],
         },
         {
             title: 'Tools and IDEs',
-            description: ["GIT", "Eclipse", "Microsoft Visual Studio", "Intellij", "MS Office"],
+            description: ["GIT", "PyCharm", "Microsoft Visual Studio", "Intellij", "MS Office", "MySQL Workbench"],
         },
         {
             title: 'OS and Other',
-            description: ["Docker", "Kubernetes", "Amazon Web Services", "Spring MVC", "Postman", "RESTful Web Services", "JIRA", "Azure Cloud"]
+            description: ["Docker", "Kubernetes", "AWS", "Postman", "RESTful Web Services", "JIRA", "Azure Cloud", "API Development"]
         }
     ],
 
