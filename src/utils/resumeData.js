@@ -11,7 +11,7 @@ export default {
     Title: 'Software Engineer',
     Birthdate: 'September 20, 1996',
     Email: 'samarthshah3140@gmail.com',
-    Company: 'DISH Networks LLC',
+    Company: 'DISH Networks',
     Address: 'Denver, Colorado, USA',
     Phone: '+1(510)-766-4199',
     Skype: 'samarth.shah40',
@@ -43,14 +43,14 @@ export default {
     experiences: [
         {
             title: 'Software Engineer - DISH Technologies',
-            date: 'December 2021 - Current',
+            date: 'September 2021 - Current',
             description1_0: '• Gathered data from multiple Metadata Providers and processed data into required configuration before delivering to DISH Platforms.',
             description1_1: '• Duilt Functionality to send out alerts when the data is not processed or the deliverable files are not generated, which helped in keeping track of any failures.',
             description1_2: '• Contributed to developiong the Web UI for all the metadata collected and showcase how and what is sent to different DISH Platforms.',
         },
         {
-            title: 'Web Developer - iConsult - Syracuse University',
-            date: 'April 2020 - Nov 2020 ',
+            title: 'Software Engineering Intern (Frontend) - iConsult Collaborative - Syracuse University',
+            date: 'January 2021 - September 2021 ',
             description1_0: '• Developed website frontend which enhanced user experience. Accomplished webpage objectives by creating site structure, page optimization and graphics integration.',
             description1_1: '• Developed reusable React functional and class components with Redux for state management.',
             description1_2: '• Improving code coverage to 90% using Enzyme.js, Chai.js and Mocha.js unit test frameworks.',
@@ -58,7 +58,7 @@ export default {
         },
         {
             title: 'Software Engineering Intern  - Aditya Infotech',
-            date: 'Jan 2018 - Nov 2018',
+            date: 'January 2018 - November 2018',
             description2_0:'• Developed microservices in Java to process data. Built and managed API’s using ext.js framework to maintain applications.', 
             description2_1:'• Worked on Frontend modules in React.JS for the users. Designed database schemas for complex entity relationships.', 
             description2_2:'• Investigating and resolving pre-existing bugs using debugging tools such as ChromeDevTools and React Developer Tools.'
@@ -104,15 +104,15 @@ export default {
         },
         {
             title: 'Web Technologies',
-            description: ["HTML5", "CSS3", "XML", "JavaScript"],
+            description: ["HTML5", "CSS3", "JavaScript"],
         },
         {
             title: 'Tools and IDEs',
-            description: ["GIT", "PyCharm", "Microsoft Visual Studio", "Intellij", "MS Office", "MySQL Workbench"],
+            description: ["GIT", "IntelliJ", "PyCharm", "Visual Studio Code", "MS Office", "MySQL Workbench", "ElasticSearch", "Kafka"],
         },
         {
-            title: 'OS and Other',
-            description: ["Docker", "Kubernetes", "AWS", "Postman", "RESTful Web Services", "JIRA", "Azure Cloud", "API Development"]
+            title: 'Other',
+            description: ["Docker", "Kubernetes", "AWS", "Postman", "RESTful Web Services", "JIRA", "Azure Cloud", "Kibana", "Argo"]
         }
     ],
 
