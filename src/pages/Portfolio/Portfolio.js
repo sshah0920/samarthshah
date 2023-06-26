@@ -14,7 +14,7 @@ import {
   DialogContent,
   DialogActions,
   DialogTitle,
-} from "@material-ui/core";
+} from "@mui/material";
 import resumeData from "../../utils/resumeData";
 
 const Portfolio = () => {

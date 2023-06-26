@@ -5,10 +5,10 @@ import {
     Nav,
 } from "react-bootstrap";
 import { NavLink, withRouter} from "react-router-dom";
-import { HomeRounded } from '@material-ui/icons';
+import { HomeRounded } from '@mui/icons-material';
 import resumeData from '../../utils/resumeData';
 import CustomButton from '../Buttons/Button';
-import PriorityHighIcon from '@material-ui/icons/PriorityHigh';
+import PriorityHighIcon from '@mui/icons-material/PriorityHigh';
 import './header.css';
 
 const Header = (props) => {

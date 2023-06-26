@@ -1,7 +1,7 @@
 import React from "react";
 import "./certi.css";
 import resumeData from "../../utils/resumeData";
-import { Grid } from "@material-ui/core";
+import { Grid } from "@mui/material";
 
 const Certificate = () => {
   return (

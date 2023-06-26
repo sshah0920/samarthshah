@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import { Grid, Typography, TextField } from "@material-ui/core";
+import { Grid, Typography, TextField } from "@mui/material";
 import resumeData from "../../utils/resumeData";
 import CustomButton from "../../components/Buttons/Button";
 import "../Contact/contactform.php";

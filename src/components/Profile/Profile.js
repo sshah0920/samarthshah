@@ -1,14 +1,14 @@
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import React from "react";
 import CustomTimeline, { CustomTimeLineSeparator } from "../Timeline/Timeline";
-import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
-import TimelineItem from "@material-ui/lab/TimelineItem";
-import TimelineContent from "@material-ui/lab/TimelineContent";
+import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineContent from "@mui/lab/TimelineContent";
 import profileImage from "../../assets/images/profile.jpg"
 import resumeData from "../../utils/resumeData";
 import "./profile.css";
 import CustomButton from '../Buttons/Button';
-import GetAppIcon from '@material-ui/icons/GetApp';
+import GetAppIcon from '@mui/icons-material/GetApp';
 import "../../assets/docs/Samarth_Shah.pdf";
 
 const CustomTimelineItem = ({ title, text, link }) => (
