@@ -4,6 +4,7 @@ import {
     Navbar,
     Nav,
 } from "react-bootstrap";
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import { NavLink, withRouter} from "react-router-dom";
 import { HomeRounded } from '@mui/icons-material';
 import resumeData from '../../utils/resumeData';
@@ -15,14 +16,17 @@ const Header = (props) => {
     const pathName = props?.location?.pathName;
 
     return ( 
-    <Navbar expand="lg" className='header'>
+    <Navbar expand="lg" className='header' sticky = 'top'>
+    
     <Nav.Link as={NavLink} to='/' className={'header_navlink'}>
         <Navbar.Brand className='header_home'> 
             <HomeRounded />
         </Navbar.Brand>
     </Nav.Link>
+    
     <Navbar.Toggle />
-    <Navbar.Collapse>
+    
+    <NavbarCollapse>
         <Nav className="header_left"> 
             <Nav.Link as={NavLink} to='/' className={pathName === '/' ? 'header_link_active' : 'header_link'}>
             Resume
@@ -34,21 +38,20 @@ const Header = (props) => {
 
             <Nav.Link as={NavLink} to='/certificate' className={pathName === '/certificate' ? 'header_link_active' : 'header_link'}>
             Certificates
-    </Nav.Link>
+            </Nav.Link>
 
             {/*<Nav.Link as={NavLink} to='/contact' className={pathName === '/contact' ? 'header_link_active' : 'header_link'}>
             Contact
-    </Nav.Link>*/}
+            </Nav.Link>*/}
         </Nav>
+       
         <div className='header_right'>
             {Object.keys(resumeData.socials).map(key => (
                <a href={resumeData.socials[key].link} target='_blank' rel='noreferrer'>{resumeData.socials[key].icon}</a> 
             ))}
-            { /*<a href='/pages/contact.js'>
-            <CustomButton text={'Hire Me'} icon={<PriorityHighIcon />}> </CustomButton>
-            </a> */}
         </div>
-    </Navbar.Collapse>
+    </NavbarCollapse>
+  
   </Navbar>
 )}
 
