@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/samarthshah/static/css/main.863d8b86.css",
+    "main.js": "/samarthshah/static/js/main.6672b55b.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/samarthshah/static/js/787.dc9ee2bf.chunk.js",
+    "static/media/profile.jpg": "/samarthshah/static/media/profile.c400de4ef992de4d5afa.jpg",
+    "static/media/Samarth_Shah.pdf": "/samarthshah/static/media/Samarth_Shah.be82ff7fd634a539d74d.pdf",
+    "static/media/bg3.jpg": "/samarthshah/static/media/bg3.c54a9e3f42f22d2c307d.jpg",
+    "index.html": "/samarthshah/index.html",
+    "static/media/contactform.php": "/samarthshah/static/media/contactform.136b1604fd3f5bea5605.php",
+    "main.863d8b86.css.map": "/samarthshah/static/css/main.863d8b86.css.map",
+    "main.6672b55b.js.map": "/samarthshah/static/js/main.6672b55b.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/samarthshah/static/js/787.dc9ee2bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.863d8b86.css",
+    "static/js/main.6672b55b.js"
+  ]
+}
