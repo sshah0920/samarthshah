@@ -43,14 +43,14 @@ export default {
     experiences: [
         {
             title: 'Software Engineer - DISH Technologies',
-            date: 'September 2021 - Current',
+            date: 'December 2021 - Current',
             description1_0: '• Gathered data from multiple Metadata Providers and processed data into required configuration before delivering to DISH Platforms.',
             description1_1: '• Duilt Functionality to send out alerts when the data is not processed or the deliverable files are not generated, which helped in keeping track of any failures.',
             description1_2: '• Contributed to developiong the Web UI for all the metadata collected and showcase how and what is sent to different DISH Platforms.',
         },
         {
             title: 'Software Engineering Intern (Frontend) - iConsult Collaborative - Syracuse University',
-            date: 'January 2021 - September 2021 ',
+            date: 'January 2021 - November 2021 ',
             description1_0: '• Developed website frontend which enhanced user experience. Accomplished webpage objectives by creating site structure, page optimization and graphics integration.',
             description1_1: '• Developed reusable React functional and class components with Redux for state management.',
             description1_2: '• Improving code coverage to 90% using Enzyme.js, Chai.js and Mocha.js unit test frameworks.',
@@ -112,7 +112,7 @@ export default {
         },
         {
             title: 'Other',
-            description: ["Docker", "Kubernetes", "AWS", "Postman", "RESTful Web Services", "JIRA", "Azure Cloud", "Kibana", "Argo"]
+            description: ["Docker", "Kubernetes", "AWS", "Postman", "RESTful APIs", "JIRA",  "Kibana", "Argo"]
         }
     ],
 
